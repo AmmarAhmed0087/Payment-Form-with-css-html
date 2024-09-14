@@ -1,0 +1,46 @@
+.body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+
+.container{ 
+    background-color: #f2f2f2;
+    border: 1px solid lightgrey;
+    
+    padding: 5px 20px 15px 20px;
+}
+.main_heading{
+    text-align: center;
+}
+textarea{
+  width: 100%;
+  
+  border: 1px solid #ccc;
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+input[type="card"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="numbers"] {
+  width: 98%;
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+  input[type="submit"]{
+    cursor:pointer;
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width:100%;
+  }
